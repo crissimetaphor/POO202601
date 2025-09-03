@@ -33,6 +33,16 @@ protected:
 };
 
 
+class
+Inventario {
+public:
+	Inventario() = default;
+	int posion;
+
+protected:
+	int ObjetoClave;
+};
+
 int 
 main() {
 	Character pepe(150);
@@ -47,5 +57,8 @@ main() {
 	}
 
 	std::cout << "hola" << std::endl;
+
+
+
 	return 0;
 }
